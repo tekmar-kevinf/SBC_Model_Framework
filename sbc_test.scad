@@ -109,6 +109,14 @@ translate([535,600,0]) sbc("rpizero");
 linear_extrude(height = 2) { translate([535,582,0]) text("RPi Zero"); }
 color("yellow",.3) translate([535,582,-1]) cube([53,10,1]);
 
+translate([535,680,0]) sbc("rpipico");
+linear_extrude(height = 2) { translate([535,667,0]) text("RPi Pico"); }
+color("yellow",.3) translate([535,667,-1]) cube([53,10,1]);
+
+translate([535,720,0]) sbc("rpipicow");
+linear_extrude(height = 2) { translate([535,706,0]) text("RPi Pico W"); }
+color("yellow",.3) translate([535,706,-1]) cube([70,10,1]);
+
 translate([650,285,0]) sbc("rockpi4b+");
 linear_extrude(height = 2) { translate([650,265,0]) text("ROCKPi 4A/B+"); }
 color("yellow",.3) translate([650,265,-1]) cube([92,10,1]);
